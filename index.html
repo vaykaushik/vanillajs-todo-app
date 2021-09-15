@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Task List</title>
+</head>
+<body>
+
+  <header class="header">
+
+    <h1>Basic to do list</h1>
+
+    <div class="container">
+
+      <div class="instructions">
+        <h2>How to use?</h2>
+        <p>1. Enter a task below in the input field.</p>
+        <p>2. Add a task by clicking 'Add a task'.</p>
+        <p>3. Cross off task by clicking on a task within the list below.</p>
+        <p>4. <strong>(For PC Only)</strong> When prompted, confirm by removing task, or click 'Cancel' to see completed tasks.</p>
+      </div>
+        
+      <div class="user-container">
+
+        <input type="text" id="userInput" placeholder="Enter a task here...">
+      
+        <button id="add-task">Add task</button>
+        <button id="remove-task">Remove last task</button>
+        <button id="remove-tasks">Clear all tasks</button>
+
+        <h2 class="tasks">Tasks</h2>
+
+        <ul class="task-container"></ul>
+      
+      </div>
+
+    </div>
+
+  </header>
+  
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
